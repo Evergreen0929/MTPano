@@ -1,7 +1,7 @@
 # 🌐 MTPano: Multi-Task Panoramic Scene Understanding via Label-Free Integration of Dense Prediction Priors
 
 <p align="center">
-  <video src="assets/mtpano_demo_fast.mp4" width="900" autoplay loop muted playsinline></video>
+  <img src="assets/mtpano_demo_lite.gif" width="900" alt="MTPano Demo">
   <br>
     <em>MTPano is a multi-task foundation model for panoramic dense scene parsing (Semantic Segmentation, Depth Estimation, and Surface Normal Estimation).</em>
 </p>
@@ -66,12 +66,12 @@ Our inference script integrates `huggingface_hub`, which means **you don't need 
 ### Model Comparison & Training Data
 | Dataset | 140k Weights | 408k Weights |
 | :--- | :---: | :---: |
-| Structured3D | 16.6k | 16.6k |
+| [Structured3D](https://github.com/bertjiazheng/Structured3D/) | 16.6k | 16.6k |
 | Sun360 | 34.3k | 34.3k |
-| Matterport3D_ERP | 0.8k | 0.8k |
-| DiT360_gen (Synthetic) | 82k | 182k |
-| Hunyuan_gen (Synthetic) | - | 100k |
-| ZInD | - | 6.7k |
+| [Matterport3D](https://github.com/niessner/Matterport/) | 7.9k | 7.9k |
+| [DiT360_gen](https://github.com/Insta360-Research-Team/DiT360) (Synthetic) | 82k | 182k |
+| [Hunyuan_gen](https://github.com/Tencent-Hunyuan/HunyuanWorld-1.0) (Synthetic) | - | 100k |
+| [ZInD](https://github.com/zillow/zind) | - | 67.4k |
 | **Total Images** | **140k** | **408k** |
 
 ## 🚀 Inference

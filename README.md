@@ -1,9 +1,7 @@
 # 🌐 MTPano: Multi-Task Panoramic Scene Understanding via Label-Free Integration of Dense Prediction Priors
 
 <p align="center">
-  <video src="assets/mtpano_demo_fast.mp4" width="900" autoplay loop muted playsinline></video>
-  <br>
-    <em>MTPano is a multi-task foundation model for panoramic dense scene parsing (Semantic Segmentation, Depth Estimation, and Surface Normal Estimation).</em>
+  <video src="https://raw.githubusercontent.com/Evergreen0929/MTPano/main/assets/mtpano_demo_fast.mp4" width="900" autoplay loop muted playsinline></video>
 </p>
 
 <p align="center">

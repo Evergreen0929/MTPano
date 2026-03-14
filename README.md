@@ -6,9 +6,17 @@
     <em>MTPano is a multi-task foundation model for panoramic dense scene parsing (Semantic Segmentation, Depth Estimation, and Surface Normal Estimation).</em>
 </p>
 
-[![Paper](https://img.shields.io/badge/arXiv-Paper-b31b1b.svg)](https://arxiv.org/abs/2602.05330)
-[![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Weights-ffc107?color=ffc107&logoColor=white)](https://huggingface.co/jdzhang0929/MTPano)
-[![Project Page](https://img.shields.io/badge/Project-Website-blue)](https://evergreen0929.github.io/projects/mtpano.html)
+<p align="center">
+  <a href="https://arxiv.org/abs/2602.05330">
+    <img src="https://img.shields.io/badge/arXiv-Paper-b31b1b.svg" alt="Paper">
+  </a>
+  <a href="https://huggingface.co/jdzhang0929/MTPano">
+    <img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Weights-ffc107?color=ffc107&logoColor=white" alt="Hugging Face">
+  </a>
+  <a href="https://evergreen0929.github.io/projects/mtpano.html">
+    <img src="https://img.shields.io/badge/Project-Website-blue" alt="Project Page">
+  </a>
+</p>
 
 ## 📢 News
 - **[2026/03]** 🚀 We release the inference code and pretrained weights on Hugging Face! You can now run local inference.

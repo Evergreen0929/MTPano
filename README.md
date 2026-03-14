@@ -70,8 +70,8 @@ Our inference script integrates `huggingface_hub`, which means **you don't need 
 | [Structured3D](https://github.com/bertjiazheng/Structured3D/) | 16.6k | 16.6k |
 | Sun360 | 34.3k | 34.3k |
 | [Matterport3D](https://github.com/niessner/Matterport/) | 7.9k | 7.9k |
-| [DiT360_gen](https://github.com/Insta360-Research-Team/DiT360) (Synthetic) | 82k | 182k |
-| [Hunyuan_gen](https://github.com/Tencent-Hunyuan/HunyuanWorld-1.0) (Synthetic) | - | 100k |
+| [DiT360](https://github.com/Insta360-Research-Team/DiT360) (Synthetic) | 82k | 182k |
+| [Hunyuan](https://github.com/Tencent-Hunyuan/HunyuanWorld-1.0) (Synthetic) | - | 100k |
 | [ZInD](https://github.com/zillow/zind) | - | 67.4k |
 | **Total Images** | **140k** | **408k** |
 

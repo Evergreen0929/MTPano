@@ -1,0 +1,42 @@
+# Setup
+version_name: synpass_dinov3Lp16_dpt_cm_BFE_ext_final_ft3
+out_dir: "/mnt/localssd/PanoMTL/"
+
+# Database
+train_db_name: SynPASS
+val_db_name: SynPASS
+train_mode: train_gt
+trBatch: 6
+valBatch: 6
+nworkers: 8
+ignore_index: 255
+
+# Optimizer and scheduler
+intermediate_supervision: True
+val_interval: 1000
+epochs: 999999
+max_iter: 10000
+optimizer: adam
+optimizer_kwargs:
+   lr: 0.00002
+   weight_decay: 0.000005
+scheduler: poly
+
+# Model
+model: TransformerBFE-DINO-DPT
+backbone: dinov3L
+head: dpt_head
+embed_dim: 512
+mtt_resolution_downsample_rate: 2
+PRED_OUT_NUM_CONSTANT: 64
+
+# Tasks
+task_dictionary:
+   include_semseg: True
+
+# Loss kwargs
+loss_kwargs:
+   loss_weights:
+       semseg: 1.0
+
+grad_clip_param: {'max_norm': 10, 'norm_type': 2}

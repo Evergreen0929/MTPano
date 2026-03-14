@@ -1,0 +1,9 @@
+*.pth
+*.tar
+*.pth.tar
+results/
+temp/
+*.npy
+*.ply
+__pycache__/
+.DS_Store

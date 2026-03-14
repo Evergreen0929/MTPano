@@ -25,8 +25,9 @@
 ## 📜 Introduction
 
 This repository contains the official implementation of **[MTPano](https://arxiv.org/abs/2602.05330)**:  
-**MTPano: Multi-Task Panoramic Scene Understanding via Label-Free Integration of Dense Prediction Priors**  
-*Jingdong Zhang, Xiaohang Zhan, Lingzhi Zhang, Yizhou Wang, Zhengming Yu, Jionghao Wang, Wenping Wang, Xin Li*  
+> **MTPano: Multi-Task Panoramic Scene Understanding via Label-Free Integration of Dense Prediction Priors**  
+> *Jingdong Zhang, Xiaohang Zhan, Lingzhi Zhang, Yizhou Wang,  
+> Zhengming Yu, Jionghao Wang, Wenping Wang, Xin Li*  
 
 **MTPano** is a robust multi-task panoramic foundation model established by a label-free training pipeline. It addresses the critical challenges of geometric distortions and data scarcity in 360° vision:
 - **Label-Free Training Pipeline:** We circumvent data scarcity by projecting panoramas into perspective patches, generating pseudo-labels using off-the-shelf perspective foundation models, and re-projecting them for patch-wise supervision.

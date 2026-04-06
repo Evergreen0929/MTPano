@@ -70,10 +70,10 @@ Our inference script integrates `huggingface_hub`, which means **you don't need 
 ### Model Comparison & Training Data
 | Dataset | 140k Weights | 408k Weights |
 | :--- | :---: | :---: |
-| [Structured3D](https://github.com/bertjiazheng/Structured3D/) | 16.6k | 16.6k |
+| [Structured3D](https://github.com/bertjiazheng/Structured3D/) | 20.0k | 20.0k |
 | Sun360 | 34.3k | 34.3k |
-| [Matterport3D](https://github.com/niessner/Matterport/) | 7.9k | 7.9k |
-| [DiT360](https://github.com/Insta360-Research-Team/DiT360) (Synthetic) | 82k | 182k |
+| [Matterport3D](https://github.com/niessner/Matterport/) | 10.4k | 10.4k |
+| [DiT360](https://github.com/Insta360-Research-Team/DiT360) (Synthetic) | 76.2k | 177k |
 | [Hunyuan](https://github.com/Tencent-Hunyuan/HunyuanWorld-1.0) (Synthetic) | - | 100k |
 | [ZInD](https://github.com/zillow/zind) | - | 67.4k |
 | **Total Images** | **140k** | **408k** |
